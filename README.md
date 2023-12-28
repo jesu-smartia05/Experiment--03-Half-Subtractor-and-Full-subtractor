@@ -4,8 +4,8 @@
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+Hardware – PCs, Cyclone II , USB flasher
+Software – Quartus prime
 ## Theory
 Subtractor circuits take two binary numbers as input and subtract one binary number input from the other binary number input. Similar to adders, it gives out two outputs, difference and borrow (carry-in the case of Adder). There are two types of subtractors.
 
@@ -26,8 +26,7 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
-
-
+*Connect the supply (+5V) to the circuit. *Switch ON the main switch. *If the output is 1, then the led glows.
 
 Write the detailed procedure here 
 
@@ -35,20 +34,44 @@ Write the detailed procedure here
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: JESU SMARTIA A
+RegisterNumber: 212223110016 
 
-## Output:
+1.Program to design a half subtractor:
 
-## Truthtable
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/3b608286-6788-4812-bc1e-2c6b0f231052)
 
+2.Program to design a full subtractor:
 
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/6c11eb26-09ba-4a6e-a79b-e5b5731e6d8d)
 
-##  RTL realization
+# Output:
+### Truthtable:
+#### HALF SUBTRACTOR:
 
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/22eeaa42-3ee9-4b3b-a666-6b4a4bf52e1a)
 
-## Timing diagram 
+#### FULL SUBTRACTOR:
+
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/cb850300-523d-4d69-b9e9-5cb2e0d90839)
+
+# RTL realization
+### HALF SUBTRACTOR:
+
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/244e1807-23d9-4f9a-95e7-21d2b18aa085)
+
+### FULL SUBTRACTOR:
+
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/3ac729f5-0e49-4bd9-9964-3c098be46eb4)
+
+# Timing diagram:
+### HALF SUBTRACTOR:
+
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/10821c34-94aa-4561-b7dc-5c3bbd7bfa59)
+
+### FULL SUBTRACTOR:
+
+![image](https://github.com/jesu-smartia05/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514819/aedd99d4-8496-4a5f-95de-03789fa72f94)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
