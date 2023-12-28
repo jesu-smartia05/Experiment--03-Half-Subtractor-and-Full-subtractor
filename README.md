@@ -28,9 +28,6 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 ## Procedure
 *Connect the supply (+5V) to the circuit. *Switch ON the main switch. *If the output is 1, then the led glows.
 
-Write the detailed procedure here 
-
-
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
